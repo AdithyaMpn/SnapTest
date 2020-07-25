@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "807683329639",
+    "firebase_url": "https://snaptest-5498.firebaseio.com",
+    "project_id": "snaptest-5498",
+    "storage_bucket": "snaptest-5498.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807683329639:android:9fb261995366fe235a8ec2",
+        "android_client_info": {
+          "package_name": "com.adithya.snaptest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "807683329639-n65bdu06ptemkdv3tdfnkieq7707nsve.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLZoNmCALEsmJEkx9jL1tdNyYAjzdMVMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "807683329639-n65bdu06ptemkdv3tdfnkieq7707nsve.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

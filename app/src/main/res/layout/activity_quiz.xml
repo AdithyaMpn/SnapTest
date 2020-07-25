@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_cyan">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+<!--            <androidx.appcompat.widget.AppCompatImageView-->
+<!--                android:id="@+id/ic_close"-->
+<!--                style="@style/ic_close"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                app:srcCompat="@drawable/ic_close"-->
+<!--                tools:targetApi="lollipop" />-->
+
+
+            <TextView
+                android:id="@+id/cardTopic"
+                style="@style/cardTopicText"
+                android:text="Please Select the Answer for this MCQ"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/fredoka_one"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardTopic"
+                tools:text="Question" />
+
+
+            <!--            <androidx.appcompat.widget.AppCompatImageView-->
+            <!--                android:id="@+id/image"-->
+            <!--                android:layout_width="350dp"-->
+            <!--                android:layout_height="350dp"-->
+            <!--                android:layout_marginStart="10dp"-->
+            <!--                android:layout_marginTop="20dp"-->
+            <!--                android:layout_marginEnd="10dp"-->
+            <!--                app:layout_constraintEnd_toEndOf="parent"-->
+            <!--                app:layout_constraintStart_toStartOf="parent"-->
+            <!--                app:layout_constraintTop_toBottomOf="@+id/question" />-->
+
+
+            <!--            <com.google.android.material.button.MaterialButtonToggleGroup-->
+            <!--                android:id="@+id/materialButtonToggleGroup"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginStart="10dp"-->
+            <!--                android:layout_marginTop="50dp"-->
+            <!--                android:layout_marginEnd="10dp"-->
+            <!--                android:orientation="vertical"-->
+            <!--                app:layout_constraintEnd_toEndOf="parent"-->
+            <!--                app:layout_constraintStart_toStartOf="parent"-->
+            <!--                app:layout_constraintTop_toBottomOf="@+id/image"-->
+            <!--                app:singleSelection="true">-->
+
+            <!--                &lt;!&ndash;                app:icon="@mipmap/ic_letter_a"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                app:iconSize="50dp"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                app:iconTint="@color/transparent"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                app:iconTintMode="add"&ndash;&gt;-->
+            <!--                <com.google.android.material.button.MaterialButton-->
+            <!--                    android:id="@+id/option_a"-->
+            <!--                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:elevation="3dp"-->
+            <!--                    android:fontFamily="@font/quando"-->
+            <!--                    android:text="a) option a\nqw"-->
+            <!--                    android:ellipsize="none"-->
+            <!--                    android:textColor="@color/black"-->
+            <!--                    app:backgroundTint="@color/light_yellow"-->
+            <!--                    app:strokeWidth="2dp" />-->
+
+            <!--                <com.google.android.material.button.MaterialButton-->
+            <!--                    android:id="@+id/option_b"-->
+            <!--                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:elevation="3dp"-->
+            <!--                    android:fontFamily="@font/quando"-->
+            <!--                    android:textColor="@color/black"-->
+            <!--                    app:backgroundTint="@color/light_yellow"-->
+            <!--                    app:strokeWidth="2dp"-->
+            <!--                    tools:text="b) option b" />-->
+
+            <!--                <com.google.android.material.button.MaterialButton-->
+            <!--                    android:id="@+id/option_c"-->
+            <!--                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:elevation="3dp"-->
+            <!--                    android:fontFamily="@font/quando"-->
+            <!--                    android:textColor="@color/black"-->
+            <!--                    app:backgroundTint="@color/light_yellow"-->
+            <!--                    app:strokeWidth="2dp"-->
+            <!--                    tools:text="c) option c" />-->
+
+            <!--                <com.google.android.material.button.MaterialButton-->
+            <!--                    android:id="@+id/option_d"-->
+            <!--                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:elevation="3dp"-->
+            <!--                    android:fontFamily="@font/quando"-->
+            <!--                    android:textColor="@color/black"-->
+            <!--                    app:backgroundTint="@color/light_yellow"-->
+            <!--                    app:strokeWidth="2dp"-->
+            <!--                    tools:text="d) option d" />-->
+
+            <!--            </com.google.android.material.button.MaterialButtonToggleGroup>-->
+
+
+            <LinearLayout
+                android:id="@+id/linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/question">
+
+                <com.adithya.snaptest.FButton
+                    android:id="@+id/option_a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/black"
+                    tools:text="A) Option A" />
+
+                <com.adithya.snaptest.FButton
+                    android:id="@+id/option_b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/black" />
+
+
+                <com.adithya.snaptest.FButton
+                    android:id="@+id/option_c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/black" />
+
+                <com.adithya.snaptest.FButton
+                    android:id="@+id/option_d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+            <com.adithya.snaptest.FButton
+                android:id="@+id/check_button"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/quando"
+                android:text="Save"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:cornerRadius="30dp"
+                app:buttonColor="@color/colorPrimary"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linear_layout"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <!--            <com.google.android.material.button.MaterialButton-->
+            <!--                android:id="@+id/check_button"-->
+            <!--                style="@style/Widget.MaterialComponents.Button.OutlinedButton"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="60dp"-->
+            <!--                android:layout_marginStart="20dp"-->
+            <!--                android:layout_marginTop="30dp"-->
+            <!--                android:layout_marginEnd="20dp"-->
+            <!--                android:layout_marginBottom="30dp"-->
+            <!--                android:fontFamily="@font/quando"-->
+            <!--                android:text="Check"-->
+            <!--                android:textColor="@color/white"-->
+            <!--                android:textSize="20sp"-->
+            <!--                app:backgroundTint="@color/light_grey"-->
+            <!--                app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--                app:layout_constraintEnd_toEndOf="parent"-->
+            <!--                app:layout_constraintStart_toStartOf="parent"-->
+            <!--                app:layout_constraintTop_toBottomOf="@+id/linear_layout"-->
+            <!--                app:layout_constraintVertical_bias="1.0"-->
+            <!--                app:shapeAppearance="@style/Cut" />-->
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
